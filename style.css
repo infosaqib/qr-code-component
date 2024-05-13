@@ -1,0 +1,63 @@
+@import url('https://fonts.google.com/specimen/Outfit');
+
+body {
+    background-color: var(--Light-gray);
+
+}
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
+.flex-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.container {
+    margin: 3em 1.5em;
+    padding: 1em;
+    max-width: 17em;
+    border-radius: 5%;
+    background-color: var(--White);
+
+}
+
+.image {
+    width: 17rem;
+    height: 100%;
+    border-radius: 4%;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-family: "Outfit", "Ubuntu";
+    line-height: 1.3em;
+}
+
+h1 {
+    font-size: 1.3rem;
+    color: var(--Dark-blue);
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 15px;
+    color: var(--Grayish-blue);
+    font-weight: 500;
+}
